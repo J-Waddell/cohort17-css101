@@ -24,6 +24,37 @@ border-radius: 25%;
 #main-div-2 p {
 	background-color: orange;
 }
-#main-div-3 {
-	background-color: lightblue;
+
+
+/* Step 3 */
+#li-1 {
+font-size: 30px;
+}
+#li-2 {
+font-weight: bolder;
+}
+#li-3 {
+
+}
+#mystery-ul li{
+	font-family: 'Mystery Quest' , cursive;
+}
+#flex-kermit {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#flex-kermit > img {
+	width: 30%;
+	float: left;
+}
+
+input {
+	background-color: white;
+}
+input:valid {
+	background-color: green;
+}
+input:invalid {
+	background-color: red;
 }
